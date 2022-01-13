@@ -6,12 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <link rel="stylesheet" href="./style.css">
+    
   </head>
   <body>
-    <div class="bg-red-500">hihihi</div>
-    <div>Chafo casc ban</div>
-    <ul  id="menu"></ul>
-    <div id="app"></div>
+    <!-- contenner -->
+    <div class="mx-52 h-auto">
+      <div class="bg-blue-900	h-24">
+        <div class="p-4">
+          <img class="m-auto" src="./img/logo.png" alt="">
+        </div>
+      </div>
+      <!-- nav -->
+      <div class="bg-orange-600 flex ">
+        <div class="mt-4">
+          <nav class="h-10 ">
+            <ul class="flex ">
+              <li><a class="ml-8 text-white" href="/">Trang chủ</a></li>
+              <li><a class="ml-8 text-white"  href="/tsinh">Tuyển sinh</a></li>
+              <li><a  class="ml-8 text-white" href="/ctdt">Trương trình đào tạo</a></li>
+              <li><a  class="ml-8 text-white" href="/goctsinh">Góc tuyển sinh</a></li>
+              <li><a class="ml-8 text-white"  href="/tdung">Tuyển dụng</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mt-4 ml-44">
+          <input class="w-60" type="text">
+          <button class="ml-2 border border-sky-500 bg-blue-900 text-white"><a class="px-4" href="">Tìm kiếm</a></button>
+        </div>
+      </div>
+      <main> <div id="app"></div></main>
+     
+      <!-- footer -->
+    <div class="mt-4 bg-blue-900 h-14">
+      <h2 class="text-center py-4 text-white">NGUYỄN TIẾN MẠNH</h2>
+    </div>
+
+    </div>
+    
+
+
+    <!-- JS -->
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
