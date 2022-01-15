@@ -1,6 +1,6 @@
 import Navigo from "navigo";
 import DetailNewsPage from "./pages/detailNews";
-import HomePage from "./pages/home";
+import HomePage from "./pages/Home";
 
 const router = new Navigo("/", { linksSelector: "a" });
 const print = (content) => {
